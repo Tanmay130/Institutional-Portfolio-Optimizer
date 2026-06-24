@@ -6,7 +6,7 @@ Designed to eliminate behavioral biases from standard stock advisories, the engi
 
 ---
 
-## 📊 Live Performance & Benchmark Scorecard
+##  Live Performance & Benchmark Scorecard
 
 Based on the latest live-market evaluation (3-Year Rolling Data), the optimization engine successfully converged on a 16-stock efficient frontier, strictly prioritizing capital preservation and high-quality stock selection over reckless beta-chasing.
 
@@ -20,7 +20,7 @@ Based on the latest live-market evaluation (3-Year Rolling Data), the optimizati
 | **Forward Sharpe Ratio** | > 0.65 | **0.516** | 🟡 Deliberate Trade-off |
 | **Industry Overlap Cap** | Max 2 per Industry | **Strictly Met** | 🟢 Optimal |
 
-### 🏆 Final Portfolio Allocation (The Asset Manifest)
+###  Final Portfolio Allocation (The Asset Manifest)
 The optimizer successfully deployed L2 Regularization to smoothly distribute capital across the efficient frontier, maxing out at an 11.5% ceiling while anchoring lower-efficiency diversification plays at a 2.0% floor.
 
 | Ticker | Structural Layer | Industry | Allocation | Beta | F.Score |
@@ -42,7 +42,7 @@ The optimizer successfully deployed L2 Regularization to smoothly distribute cap
 | **POWERGRID.NS** | Alpha Engine | Power | 2.00% | 0.91 | 0.56 |
 | **PIDILITIND.NS** | Core Compounder | Chemicals | 2.00% | 0.63 | 0.72 |
 
-### 🔍 Quantitative Trade-Off Analysis (The Volatility Paradox)
+###  Quantitative Trade-Off Analysis (The Volatility Paradox)
 During optimization, the model successfully navigated a classic quantitative paradox: generating high Alpha (+6.54%) while simultaneously keeping Systemic Volatility strictly below 14.0%. 
 
 To mathematically prevent the portfolio's drawdown from breaching the -15.0% threshold, the optimizer dynamically pivoted capital toward high-quality, ultra-low beta defensive equities (e.g., Marico at 0.38 Beta, SunPharma at 0.51 Beta). 
@@ -51,7 +51,7 @@ To mathematically prevent the portfolio's drawdown from breaching the -15.0% thr
 
 ---
 
-## 🔬 Advanced Optimization Models & Mathematical Penalties
+##  Advanced Optimization Models & Mathematical Penalties
 
 The core of this engine utilizes **Non-Linear Mathematical Optimization** and constraint mechanics commonly found in the loss functions of advanced Machine Learning systems.
 
@@ -77,7 +77,7 @@ Before optimization, raw financial data is transformed into a normalized composi
 
 ---
 
-## 🧠 Structural Engine Architecture
+##  Structural Engine Architecture
 
 ### 1. The 3-Layer Framework
 The engine structurally classifies assets into three roles to construct an all-weather portfolio:
@@ -90,7 +90,7 @@ Any asset failing the baseline Fundamental Quality score is instantly disqualifi
 
 ---
 
-## 📡 Tech Stack & Live Data Pipeline
+##  Tech Stack & Live Data Pipeline
 * **Language:** Python 3.9+
 * **Core Libraries:** `NumPy`, `Pandas`, `SciPy`, `yfinance`
 * **Pipeline:** Utilizes a `requests` session with exponential backoff and localized `.pkl`/`.csv` caching to prevent API rate-limiting while maintaining daily macro-environmental accuracy.
@@ -102,5 +102,5 @@ Any asset failing the baseline Fundamental Quality score is instantly disqualifi
 
 ---
 
-## 🛑 Disclaimer
+##  Disclaimer
 *This repository is built strictly for quantitative research and placement demonstration purposes. The outputs of this algorithmic model are simulated ex-ante forecasts based on historical covariances and do not constitute professional financial advice. Live deployment of capital based on this engine is strictly at your own risk.*
